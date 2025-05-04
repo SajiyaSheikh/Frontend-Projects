@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-APP</title>
+    <link rel="stylesheet" href="Todo.css">
+</head>
+<body>
+
+    <h1>My TODO Application</h1>
+    <div id="container">
+        <div id="input-box">
+            <form>
+                <div class="form-group">
+                    <label >Task Name</label><br>
+                    <input type="text" placeholder="Enter Your Task" id="task" /><br>
+                </div>
+                
+                <div class="form-group">
+                <label  id="priority-label" >Priority</label><br>
+                <select class="options" id="priority">
+                    <option value="-select-" selected>-select-</option>
+                    <option value="High">High</option>
+                    <option value="Low">Low</option>
+                    <option value="medium">Medium</option>
+                </select><br>
+                </div>
+
+                <div class="form-group">
+                <label >Status</label><br>
+                <select class="options" id="status">
+                    <option value="-select-" selected>-select-</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Pending">Pending</option>
+                </select><br>
+                </div>
+
+                <div class="form-group">
+                <input type="submit" name="submit" id="btn">
+                </div>
+
+            </form>
+        </div>
+        <div id="output-box">
+         <div id="head-section">
+            <div>My Tasks</div>
+            <div>Priority</div>
+            <div>Status</div>
+         </div>
+         <div id="bottom-section">
+            <!-- <div></div>
+            <div></div>
+            <div></div> -->
+         </div> 
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="Todo.js"></script>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div id="navbar">
+        <div><a target="_blank" href="../home/home.html" >Home</a></div>
+        <div><a target="_blank" href="../mens/mens.html">Mens</a></div>
+        <div><a target="_blank" href="../women/women.html">Women</a></div>
+        <div><a target="_blank" href="../cart/cart.html">Go To Cart</a></div>
+        <!-- <div><a target="_blank" href="../signup/signup.html">SignUp</a></div> -->
+        <!-- <div><a target="_blank" href="../login/login.html">Login</a></div> -->
+    </div>
+    <h3>Please fill your card details </h3>
+    <div id="container">
+        <form id="form-container" >
+            <div>
+                <label>Card Number </label><br>
+                <input  type="text" placeholder="Enter Your Card Number"/>
+            </div>
+            <div>
+                <label>CVV</label><br>
+                <input  type="number" placeholder="Enter Your CVV"/>
+            </div>
+            <div>
+                <label>Expiry</label><br>
+                <input type="date" placeholder="Enter Expiry Date"/>
+            </div>
+            <div id="btn">
+                <input type="submit" value="Pay"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+
+    document.querySelector("#btn").addEventListener("click",successPayment)
+
+    function successPayment()
+    {
+        alert("Your Payment is Successfull")
+    }
+</script>

@@ -1,0 +1,35 @@
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(163, 111, 15);
+}
+
+#container{
+    width: 300px;
+    height: auto;
+    box-shadow: rgba(176, 192, 210, 0.3) 0px 0px 0px 3px;;
+    margin: auto;
+    padding: 40px;
+}
+
+input{
+    padding:  10px;
+    margin: 10px 0px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: wheat;
+}
+
+label{
+    color: teal;
+    font-weight: bold;
+    
+}
+
+#btn>input{
+    width: 150px;
+    background-color: teal;
+    color: white;
+    
+}

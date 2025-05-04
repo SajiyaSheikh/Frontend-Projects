@@ -1,0 +1,104 @@
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(160, 60, 17);
+    font-weight: bold;
+    
+}
+
+#container{
+ 
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#input-box{
+    width: 20%;
+    height: 70%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 25px 40px;
+    
+   
+}
+
+#output-box{
+ width: 40%;
+ /* height: 100%; */
+ height: fit-content;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ 
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+label{
+    font-size: 20px;
+    color: teal;
+}
+
+.form-group{
+    margin: 12px 0px;
+}
+
+#btn{
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: none;
+    border-radius: 8px;
+   
+
+}
+
+#head-section{
+
+    display: flex;
+    
+}
+
+#head-section>div{
+    box-shadow: rgba(208, 208, 240, 0.25) 0px 6px 12px -2px, rgba(247, 244, 244, 0.3) 0px 3px 7px -3px;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+#bottom-section{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    border: 1px solid white;
+
+    
+}
+
+#bottom-section>div{
+     box-shadow: rgba(229, 229, 245, 0.25) 0px 6px 12px -2px, rgba(81, 73, 73, 0.3) 0px 3px 7px -3px; 
+    padding: 10px 20px 10px 20px;
+    width: 70%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-align: center;
+}
+
+.options{
+    width: 190px;
+    margin-top: 10px;
+   margin-bottom: 10px; 
+    padding: 10px;
+}
