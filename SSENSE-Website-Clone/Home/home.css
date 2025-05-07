@@ -12,6 +12,9 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: black;
     /* border: 1px solid red; */
 }
 
@@ -93,7 +96,7 @@ a{
     width: 100%;
     height: auto;
     /* border: 1px solid blue; */
-    margin-top: 10px;
+    margin-top: 20px;
     justify-content: flex-start;
     gap: 30px;
     margin-bottom: 0px;
@@ -147,7 +150,7 @@ a{
 #box4>p:first-child{
     font-size: x-large;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 15px;
     color: rgb(114, 112, 112);
 } 
 
@@ -155,6 +158,7 @@ a{
     text-transform: uppercase;
     font-size: 30px;
     margin: 5px;
+    margin-top: 10PX;
     font-style: normal;
     font-weight: 400;
     color: rgb(51,51,51);
@@ -223,7 +227,8 @@ a{
     color: rgb(51, 51, 51);
     margin-bottom: 0px;
     margin-top: 10px;
-    font-family: ui-monospace;
+    /* font-family: ui-monospace; */
+    font-family: sans-serif;
     text-transform: uppercase;
 }
 
@@ -284,8 +289,10 @@ a{
     font-size: 30px;
     line-height: 0px;
     font-weight: 400;
-    font-family: ui-rounded;
+    /* font-family: ui-rounded; */
+    font-family: sans-serif;
     text-transform: uppercase;
+    color: rgb(51, 51, 51);
 }
 
 .container3-btn{
@@ -631,11 +638,41 @@ color: rgb(89, 88, 88);
     margin-top: 80px;
 }
 
-/* #container10{
-width: 100%;
-height: 200px;
-margin-bottom: 10px;
-margin-top: 30px;
-display: flex;
-justify-content: space-evenly;
-} */
+footer{
+    width: 85%;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    /* margin-bottom: 20px; */
+    
+}
+
+#footer-container1{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+#footer-container1>a{
+    padding-top: 80px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#footer-container2{
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#footer-container2>a{
+    padding-top: 20px;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    font-family: sans-serif;
+    color: grey;
+}
