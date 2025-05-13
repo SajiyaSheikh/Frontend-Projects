@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    height: 100%;
 }
 
 #navbar{
@@ -641,8 +642,11 @@ color: rgb(89, 88, 88);
 footer{
     width: 85%;
     height: 200px;
+    /* height: auto; */
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+
     /* margin-bottom: 20px; */
     
 }
